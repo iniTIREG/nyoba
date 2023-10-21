@@ -1,0 +1,49 @@
+/* Universal CSS */
+/* SELURUH BAGIAN HTML(?) */
+*{
+    font-family: Arial;
+}
+
+/* TYPE SELECTOR */
+/* bisa memilih sesusi tag */
+h1{
+    color: chocolate;
+}
+h2{
+    color: darkblue;
+}
+
+/* CLASS SESLECTOR */
+/* harus menambshkan class didalam tag */
+li.sarapan{
+color: darkgoldenrod;
+}
+
+/* ID SELECTOR*/
+/* sama kayak class cumn diganti ID */
+#makan_siang{
+    color: darkgreen;
+}
+
+/* CHILD SELECTOR */
+/* JIKA TAG SAMA TAPI CUMAN PENGEN NGERUBAH SATU SAJA */
+p>b{
+    color: darkorange;
+}
+/* maksud= tag <b> terletak di tag <p> */
+li>b{
+    color: darkslateblue;
+}
+/* DECENDANT SELECTOR */
+/* setiap tag <b> didalam pakan lngsung dipilih oleh decendant */
+p b{
+    color: darkorange;
+}
+
+/* adjacent sibling selector */
+/* jarang dipakai */
+/* cari dia yang posisinya setelah sesuatu (?)*/
+p+h2{
+    color: cyan;
+}
+/* h2 setelah paragraf */
